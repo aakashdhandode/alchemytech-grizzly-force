@@ -1,0 +1,25 @@
+.work-force ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 15px;
+    line-height: 2;
+  }
+  
+ .work-force ul li:before {
+    content: '✓';
+    padding-right: 12px;
+  }
+  .work-force ul li{
+    font-size: 17px;
+    line-height: 37px;
+  }
+  .work-force a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    border-bottom: 2px solid var(--info);
+    padding-bottom: 4px;
+    padding-top: 20px;
+    
+  }

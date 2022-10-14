@@ -1,0 +1,142 @@
+.work-section{
+    /* background: url(../images/pattern2.png) no-repeat left top, linear-gradient(#eb01a5); */
+    background-size: cover;
+    background: url(../images/pattern2.png); 
+    background-color: #F0FFFF;
+     
+}
+.section-padding{
+    padding: 48px 0;
+}
+.new-line{
+    position: absolute;
+    width: 181px;
+    height: 47px;
+    left: 225px;
+    padding-top: 15px;
+}
+.section-title h1 span{
+    color: var(--info);
+}
+.title-center{
+    text-align: center;
+}
+.text-ends{
+    text-align: end;
+}
+.section-title h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 60px;
+    /* letter-spacing: -1px; */
+    text-transform: capitalize;
+}
+.work h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.spas{
+    position: absolute;
+    width: 253px;
+    height: 255px;
+    left: 920px;
+    top: 0;
+    background: linear-gradient(91.51deg, #00357C 1.03%, #00B8B7 98.71%);
+    opacity: 0.02;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+
+.work-slider h3{
+    font-size: 19px;
+    top: 20%;
+    margin-left: 18px;
+    width: 62px;
+    height: 10px;
+    /* background: black; */
+    color: white;
+    position: absolute;
+    top: 75px;
+}
+
+
+.city-section h2{
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+
+}
+.section-border{
+    border-top: 15px solid #F5F8FF;
+}
+.city-section h2 span{
+    color: var(--info);
+}
+.work h6{
+    font-family: monospace;
+    font-size: 15px;
+    padding-top: 21px;
+}
+.work{
+    padding-top: 30px;
+}
+.work img{
+    width: 50px;
+}
+.work p{
+    font-size: 14px;
+
+}
+.mount-bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain!important;
+    background: url(../images/moutbg.png); 
+}
+.work-slider{
+    padding-top: 50px;
+}
+.work-slider .slick-slide img {
+    padding: 7px;
+    border-radius: 19px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.work-slider .slick-slide img {
+    transition: transform .5s ease;
+
+}
+
+.work-slider .slick-slide:hover img {
+    transform: scale(1.1);
+
+}
+.flex-box{
+        background-size: cover;
+        background: url(../images/pattern2.png); 
+        border-radius: 20px;
+        color: white;
+        padding: 35px 35px;
+}
+.flex-box h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+.first-box-color{
+    background-color: #2B2E33;
+}
+.flex-box a{
+    color: var(--info);
+    text-decoration: none;
+}
+.second-box-color{
+    background-color: var(--info);
+}
+

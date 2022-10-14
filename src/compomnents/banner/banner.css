@@ -1,0 +1,69 @@
+.banner-img img{
+    transform: scale(0.9);
+}
+.banner-section{
+    margin-top: 2rem;
+}
+.banner-text{
+    padding-top: 4rem;
+
+}.banner-text span{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 1.1;
+    word-spacing: 20px;
+}
+.banner-button >:nth-child(2) {
+    color: var(--info);
+    color: white;
+    margin-left: 10px;
+   }
+   .banner-button button{
+    padding: 6px 14px;
+    width: 163px;
+   }
+   .banner-text  >:nth-child(2) {
+    background: linear-gradient(90deg, #11B2A8 37.98%, #282C3F 81.1%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+   .mount{
+    position: absolute;
+    top: 24rem;
+    left: 26rem;
+    width: 31%;
+    z-index: -1;
+   }
+  
+.base {
+    background: red;
+    display: inline-block;
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 55px;
+    position: relative;
+    width: 100px;
+  }
+  .base:before {
+    border-bottom: 35px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: -35px;
+    width: 0;
+  }
+  .img-responsive.mobile {
+    display: none;
+  }
+  
+  @media only screen and (max-device-width: 720px) {
+    .img-responsive {
+      display: none;
+    }
+    .img-responsive.mobile {
+      display: block;
+    }
+  }

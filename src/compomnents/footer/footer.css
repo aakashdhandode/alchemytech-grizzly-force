@@ -1,0 +1,144 @@
+.footer-dark {
+    position: relative;
+    background-color: #202325;
+}
+.footer-top {
+    padding: 60px 0 45px;
+}
+footer .widget {
+    margin-bottom: 30px;
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
+.footer-dark a{
+    color: #fff;
+}
+.footer-dark p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.widget .social-icons li {
+    padding-right: 0px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.widget .social-icons li a {
+    font-size: 20px;
+    /* line-height: 36px; */
+    display: inline-block;
+    overflow: hidden;
+    /* width: 36px; */
+    /* height: 36px; */
+    text-align: center;
+    vertical-align: middle;
+    color: #555770;
+    padding: 0 9px;
+    border-radius: 50%;
+}
+footer .widget-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212A34;
+}
+.widget p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    /* font-family: 'Neue Haas Unica'; */
+    color: #282C3F;
+}
+.widget-links li {
+    padding-bottom: 5px;
+list-style: none;
+}
+.widget-links li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #555770;
+    text-decoration: none;
+}
+.widget-links{
+    padding-left: 0px;
+}
+.contact-info>li {
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+
+.contact-info>li svg {
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 10px;
+    vertical-align: top;
+    color: #fff;
+    border-color: #fff;
+}
+.contact-info>li svg+* {
+    font-size: 13px;
+    line-height: 19px;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 78%;
+    margin: 0;
+    vertical-align: middle;
+}
+.contact-info-light{
+    padding-left: 0px;
+}
+.news-letter input{
+    background: #FFFFFF;
+    border: 1px solid #11B2A8;
+    border-radius: 8px;
+    height: 37px;
+    width: 19rem;
+    margin-right: 13px;
+}
+.news-letter button{
+    justify-content: center;
+    align-items: center;
+    padding: 7px 32px;
+    color: white;
+    font-weight: 700;
+    background: var(--info);
+}
+
+.border-top--grey {
+border-top: 1px solid hsla(0,0%,100%,.1);
+
+}
+.border-top--grey p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555770;
+}
+.footer-payment li {
+margin-left: 5px;
+margin-left: 5px;
+float: right;
+}
+.social-icons{
+padding-left: 0px;
+}
+.f-subline{
+    text-align: center;
+}
+@media (min-width: 992px){
+.text-lg-right {
+text-align: right!important;
+}
+}
+@media (min-width: 768px){
+.text-md-left {
+text-align: left!important;
+}
+
+}

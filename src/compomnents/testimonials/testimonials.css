@@ -1,0 +1,66 @@
+.testimonial-bg{
+    background-size: cover;
+    background: url(../../assets/images/patternbg.png); 
+    background-color: #F5F8FF;
+}
+.card{
+
+    background: #FFFFFF;
+    box-shadow: 0px 14px 94px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    padding: 40px 43px;
+
+}
+.card::before {
+    top: -3rem;
+    left: 2rem;
+    content: open-quote;
+    font-size: 99px;
+    position: absolute;
+    color: #c9c9c985;
+}
+.card h4{
+    padding-top: 50px;
+}
+.card h6{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.testimonail .slick-list {
+    padding:0 20% 0 0 !important;
+}
+/* .testimonail .slick-slider {
+    margin:0 -50px;
+} */
+.testimonail .slick-slide {
+    padding:10px;
+
+}
+
+.client-logo article {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+  }
+  
+ .client-logo  p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .client-logo p:before,
+  .client-logo p:after {
+    content: "";
+    width: 42%;
+    height: 1px;
+    background: #c9c9c9;
+  }
+  
+  .client-logo p:before{
+    margin: 0 20px 0 0;
+  }
+  
+  .client-logo p:after{
+    margin: 0 0 0 20px;
+  }
